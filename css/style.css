@@ -396,7 +396,7 @@ p {
 	width: 1251px;
 	height: 5px;
 	border: none;
-	margin-top: 11px;
+	margin-top: -4px;
 
 }
 
@@ -464,6 +464,7 @@ p {
 	max-width: 1249px;
 	min-height: 24px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .services-menu {
@@ -509,14 +510,19 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 58px 0 151px;
-	justify-content: center;
+	justify-content: space-between;
 	max-width: 1249px;
+	align-items: flex-start;
+	margin: 0 auto;
+	padding-bottom: 64px;
+
 
 }
 .item {
 	flex: 1 1 300px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	object-fit: cover;
 
 }
 
@@ -526,6 +532,7 @@ p {
 	margin: 0 auto;
 	flex-wrap: wrap;
 	max-width: 1249px;
+	padding-top: 94px;
 
 }
 
@@ -582,6 +589,7 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	margin-right: 65px;
+	object-fit: cover;
 }
 
 .team-img {
@@ -659,6 +667,7 @@ p {
 .team-img1 {
 	margin-right: 15px;
 	margin-top: 24px;
+	object-fit: cover;
 }
 
 .team-img1 a:hover {
