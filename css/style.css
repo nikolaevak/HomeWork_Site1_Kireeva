@@ -209,7 +209,8 @@ p {
 	margin-bottom: 0px;
 	width:551px;
 	height:356px;
-	
+	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
+
 }
 
 /*Services*/
@@ -1026,6 +1027,10 @@ p {
 	    height: auto;
 	    flex: 1 1;
 	}
+	.products {
+		justify-content: flex-start;
+	}
+
 	.item {
 		width: 299px;
 		max-width: 100%;
@@ -1038,6 +1043,11 @@ p {
 	.team-photo-wrapper {
 		flex-wrap: nowrap;
 	}
+	.contacts {
+		width: 100%;
+		max-width: 100%;
+	}
+
 
 }		
 
@@ -1076,8 +1086,15 @@ p {
 	.contacts {
 		width: 100%;
 	}
-}
+	.item {
+		width: 100%;
+		text-align: center;
+	}
+	.subscribe { 
+		flex-wrap: nowrap;
 
+	}
+}
 
 
 /*900px*/		
@@ -1107,6 +1124,10 @@ p {
 	.contacts {
 		width: 100%;
 	}
+	.subscribe { 
+		flex-wrap: wrap;
+
+	}
 }
 
 
@@ -1127,5 +1148,14 @@ p {
 		width: 100%;
 	}
 
+	.subscribe { 
+		flex-wrap: wrap;
+
+	}
 }
 
+@media screen and (max-width: 400px) {
+	.subscribe-form {
+		flex-wrap: wrap;
+	}
+}
